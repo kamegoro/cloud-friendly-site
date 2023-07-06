@@ -1,0 +1,14 @@
+{
+  "name": "cloud-friendly-site",
+  "version": "1.0.0",
+  "description": "Emphasize the creation of static sites that are suitable for cloud environments and take advantage of the benefits of the cloud, such as scalability, high availability, and flexibility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pex-dev/cloud-friendly-site.git"
+  },
+  "author": "kamegoro"
+}
