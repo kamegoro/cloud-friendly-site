@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode", // formatter
+    "streetsidesoftware.code-spell-checker", // typo checker
+    "dbaeumer.vscode-eslint", // linter
+    "stylelint.vscode-stylelint" // css linter
+  ]
+}
