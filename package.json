@@ -10,5 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/pex-dev/cloud-friendly-site.git"
   },
-  "author": "kamegoro"
+  "author": "kamegoro",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
 }
