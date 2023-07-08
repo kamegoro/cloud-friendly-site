@@ -1,8 +1,5 @@
 {
   "cSpell.words": ["stylelint"],
-  "[scss]": {
-    "editor.formatOnSave": false
-  },
   "[css]": {
     "editor.formatOnSave": false
   }
