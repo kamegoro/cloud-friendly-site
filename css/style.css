@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   color: #24292e;
 }
 
@@ -7,6 +8,7 @@ a {
   text-decoration: none;
 }
 
+/* header */
 header {
   display: flex;
   align-items: center;
@@ -20,6 +22,7 @@ header > div {
   align-items: center;
   justify-content: space-between;
   width: 960px;
+  padding: 0 4%;
 }
 
 header > div > ul {
@@ -31,6 +34,44 @@ header > div > ul > li {
   list-style: none;
 }
 
+.insta-icon {
+  width: 20px;
+  max-width: 100%;
+}
+
 header > div > ul > li > a:hover {
   opacity: 0.6;
+}
+
+/* main */
+.firstview {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* about */
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 0 4%;
+  margin-top: 65px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.section-title {
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.about__container--name {
+  margin-bottom: 30px;
+}
+
+.about__container--profile {
+  margin-top: 30px;
 }
