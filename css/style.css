@@ -34,3 +34,7 @@ header > div > ul > li {
 header > div > ul > li > a:hover {
   opacity: 0.6;
 }
+
+.hoge__hoo--aa {
+  font-size: 15px;
+}
