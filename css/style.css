@@ -9,7 +9,6 @@ a {
 }
 
 /* header */
-
 header {
   display: flex;
   align-items: center;
@@ -64,7 +63,7 @@ header > div > ul > li > a:hover {
   max-width: 960px;
 }
 
-.about h2 {
+.section-title {
   margin-bottom: 65px;
   text-align: center;
 }
