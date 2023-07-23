@@ -1,5 +1,5 @@
 provider "google" {
-  project = var.project_name
+  project = var.project_id
   region  = var.region
 }
 
@@ -9,7 +9,7 @@ resource "google_storage_bucket" "bucket" {
 }
 
 resource "google_app_engine_application" "app" {
-  project     = var.project_name
+  project     = var.project_id
   location_id = "asia-northeast2"
 }
 
@@ -24,8 +24,8 @@ resource "google_app_engine_standard_app_version" "my_work" {
 
   deployment {
     files {
-      name = "deploy_file"
-      source_url      = "gs://${google_storage_bucket.bucket.name}/app.yaml"
+      name       = "static"
+      source_url = "gs://${google_storage_bucket.bucket.name}/static.zip"
     }
   }
 }
