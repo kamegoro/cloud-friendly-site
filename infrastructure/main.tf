@@ -1,6 +1,6 @@
 provider "google" {
   project     = "${var.project_name}"
-  region      = "asia-northeast1"
+  region      = "${var.region}"
   zone      = "asia-northeast1-a"
 }
 

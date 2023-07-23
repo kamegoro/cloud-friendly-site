@@ -7,12 +7,12 @@ instance_class: F1
 service: cloud-friendly-site
 
 handlers:
-  - url: /(.*\.(gif|png|jpg|ico|txt|svg))$
-    static_files: public/\1
-    upload: public/.*\.(gif|png|jpg|ico|txt|svg)$
-  - url: /.*
-    script: auto
-    secure: always
+  - url: /
+    static_files: static/index.html
+    upload: static/index.html
+  - url: /(.*)
+    static_files: static/\1
+    upload: static/(.*)
 
 default_expiration: '12h'
 
