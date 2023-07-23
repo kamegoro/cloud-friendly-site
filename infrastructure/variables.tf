@@ -1,6 +1,6 @@
 variable "project_name" {
-  type        = string
-  default     = "cloud-friendly"
+  type    = string
+  default = "cloud-friendly"
 }
 
 variable "region" {
