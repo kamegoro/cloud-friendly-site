@@ -84,16 +84,15 @@ header > div > ul > li > a:hover {
 /* works */
 .works__container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   list-style-type: none;
 }
 
 .works__container--list {
   width: 31%;
   margin-bottom: 23px;
-  margin-
 }
 
 .works__container--image {
