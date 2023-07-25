@@ -68,11 +68,12 @@ header > div > ul > li > a:hover {
 }
 
 .section-title {
+  width: 960px;
   margin-bottom: 65px;
   text-align: center;
 }
 
-/* about */
+/* About */
 .about__container--name {
   margin-bottom: 30px;
 }
@@ -81,7 +82,7 @@ header > div > ul > li > a:hover {
   margin-top: 30px;
 }
 
-/* works */
+/* Works */
 .works__container {
   display: flex;
   flex-wrap: wrap;
@@ -98,3 +99,25 @@ header > div > ul > li > a:hover {
 .works__container--image {
   max-width: 100%;
 }
+
+/* News */
+.news__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.news__table--date {
+  padding: 15px;
+  border-color: rgb(200, 200, 200);
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+.news__table--content {
+  padding: 15px;
+  border-color: rgb(200, 200, 200);
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+/* Contact */
