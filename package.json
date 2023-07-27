@@ -5,7 +5,8 @@
   "author": "kamegoro",
   "main": "index.js",
   "scripts": {
-    "lint": "stylelint ./static/css/style.css --fix"
+    "lint": "stylelint ./static/css/style.css",
+    "lint:fix": "stylelint ./static/css/style.css --check"
   },
   "devDependencies": {
     "prettier": "2.8.8",
