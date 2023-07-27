@@ -9,7 +9,7 @@
     "lint:fix": "stylelint ./static/css/style.css --check"
   },
   "devDependencies": {
-    "prettier": "2.8.8",
+    "prettier": "3.0.0",
     "stylelint": "15.10.2",
     "stylelint-config-recess-order": "4.3.0",
     "stylelint-config-standard": "34.0.0",
