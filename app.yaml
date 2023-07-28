@@ -4,8 +4,6 @@ runtime: nodejs20
 
 instance_class: F1
 
-service: cloud-friendly-site
-
 handlers:
   - url: /
     static_files: static/index.html
