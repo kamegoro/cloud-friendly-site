@@ -156,9 +156,7 @@ header > div > ul > li > a:hover {
   width: 100%;
   padding: 10px;
   font: inherit;
-  border: 1px;
-  border-color: #c8c8c8;
-  border-style: solid;
+  border: 1px solid #c8c8c8;
   outline: none;
 }
 
@@ -167,9 +165,7 @@ header > div > ul > li > a:hover {
   height: 100%;
   padding: 10px;
   font: inherit;
-  border: 1px;
-  border-color: #c8c8c8;
-  border-style: solid;
+  border: 1px solid #c8c8c8;
   outline: none;
 }
 
@@ -184,9 +180,7 @@ header > div > ul > li > a:hover {
   color: #fff;
   cursor: pointer;
   background-color: #24292e;
-  border: 1px;
-  border-color: #24292e;
-  border-style: solid;
+  border: 1px solid #24292e;
   outline: none;
 }
 
