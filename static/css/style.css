@@ -70,11 +70,10 @@ header > div > ul > li > a:hover {
 }
 
 .container {
-  max-width: 960px;
+  width: 960px;
 }
 
 .section-title {
-  width: 960px;
   margin-bottom: 65px;
   text-align: center;
 }
