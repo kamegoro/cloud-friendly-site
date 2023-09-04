@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>My Work</title>
     <link
       rel="stylesheet"
@@ -10,24 +14,24 @@
   </head>
   <body>
     <header>
-      <div>
-        <h1>
+      <div class="header__container">
+        <h1 class="header__container--title">
           <a href="/"> My Work </a>
         </h1>
-        <ul>
-          <li>
+        <ul class="header__items">
+          <li class="header__items--list">
             <a href="#about"> About </a>
           </li>
-          <li>
+          <li class="header__items--list">
             <a href="#works">Works</a>
           </li>
-          <li>
+          <li class="header__items--list">
             <a href="#news">News</a>
           </li>
-          <li>
+          <li class="header__items--list">
             <a href="#contact">Contact</a>
           </li>
-          <li>
+          <li class="header__items--list">
             <a href="https://www.instagram.com/">
               <img
                 class="insta-icon"
@@ -43,8 +47,12 @@
       <!-- firstview -->
       <section>
         <img
-          class="firstview"
-          src="images/firstview.jpg"
+          class="firstview__pc"
+          src="images/firstview__pc.jpg"
+        />
+        <img
+          class="firstview__sp"
+          src="images/firstview__sp.jpg"
         />
       </section>
 
