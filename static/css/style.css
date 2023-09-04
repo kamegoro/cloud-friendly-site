@@ -1,3 +1,5 @@
+/* stylelint-disable media-feature-range-notation */
+/* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable prettier/prettier */
 
 /* common */
@@ -249,7 +251,6 @@ footer {
 
   .header__container--title {
     margin-top: 20px;
-    }
   }
 
   /* sp main */
