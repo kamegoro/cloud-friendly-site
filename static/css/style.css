@@ -187,8 +187,8 @@ header {
   width: 100%;
   padding: 10px;
   font: inherit;
-  border: 1px solid #c8c8c8;
   outline: none;
+  border: 1px solid #c8c8c8;
 }
 
 .contact__table--form--textarea {
@@ -196,8 +196,8 @@ header {
   height: 10rem;
   padding: 10px;
   font: inherit;
-  border: 1px solid #c8c8c8;
   outline: none;
+  border: 1px solid #c8c8c8;
 }
 
 .contact__submit {
@@ -210,9 +210,9 @@ header {
   padding: 15px;
   color: #fff;
   cursor: pointer;
+  outline: none;
   background-color: #24292e;
   border: 1px solid #24292e;
-  outline: none;
 }
 
 .contact__submit--input:hover {
